@@ -18,7 +18,7 @@ static void swap(int *a, int *b)
 * void shift_up(int i)
 * 
 */
-static  shift_up(int i)
+static void shift_up(int i)
 {
   int done = 0;
   if(i == 0) return ;     //  node is root already
