@@ -16,7 +16,7 @@ static void swap(int *a, int *b)
 
 /*
 * void shift_up(int i)
-* 
+* 插入时的调整
 */
 static void shift_up(int i)
 {
@@ -37,7 +37,7 @@ static void shift_up(int i)
   }
 }
 /*
-*
+* 删除元素时的调整
 */
 static void shift_down(int i)
 {
@@ -71,7 +71,7 @@ static void delete(int i)
  shift_down(i);
 }
 
-void delete_max()
+int delete_max()
 {
   int ret = heap[0];
   delete(0);
