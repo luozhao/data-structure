@@ -62,6 +62,9 @@ static void shift_down(int i)
   }
 }
 
+/*
+*  删除哪个元素，就把最后一个元素移到删除元素的位置上
+*/
 static void delete(int i)
 {
  int last = heap[heap_size-1];  //  get the last one;
